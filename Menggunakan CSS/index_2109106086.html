@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registrasi Member</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="utama">
+        <table class="tabel-atas">
+            <tr>
+                <td>
+
+                </td>
+            </tr>
+        </table>
+        <table class="tabel-2">
+            <tr>
+                <td class="data-tabel-1">
+                    <table class="tabel-3">
+                        <tr>
+                            <td>
+                                <img class="gambar1"
+                                    src="Unmul [KoleksiLogo.com].png">
+
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <p class="teks-1">
+                        <b>UPT PERPUSTAKAAN UNIVERSITAS MULAWARMAN</b>
+                    </p>
+                    <p class="teks-2">Jl.Kuaro Kampus-Gn.Kelua.Kotak Pos 1068
+                        Samarinda 75123 Kalimantan Timur,Indonesia</p>
+                </td>
+            </tr>
+        </table>
+        <table class="tabel-4">
+            <tr>
+                <td>
+                    <video class="video-1" autoplay loop muted>
+                        <source src="video1.mp4">
+                    </video>
+
+                </td>
+            </tr>
+        </table>
+
+        <div>
+            <form class="boks-2" action="/search" method="get">
+
+                <input class="boks-1" type="text" name="query"
+                    placeholder="Masukkan Kata Kunci">
+            </form>
+        </div>
+        <p class="registrasi">
+            <b>Registrasi Member</b>
+        </p>
+        <hr class="garis-1">
+        <table class="tabel-5">
+            <tr>
+                <td class="garis-biru">
+
+                </td>
+            </tr>
+        </table>
+        <p></p>
+
+        <table class="tabel-6">
+            <tr>
+                <td rowspan="3">
+                    <div class="universal">
+                        <p class="anak-tabel-6">
+
+                            <b>No.Induk Mahasiswa</b> <font color="red">*</font>
+
+                            <input type="number" name="nim" minlength="1"
+                                maxlength="20" placeholder="Masukkan Nim Anda"
+                                class="input-induk">
+
+                        </p>
+
+                        <!-- <div class="inti"> -->
+                        <p class="anak-tabel-6-2">
+                            <b>Nama Mahasiswa</b> <font color="red">*</font>
+
+                            <input type="text" name="nama" minlength="1"
+                                maxlength="20" placeholder="Masukkan Nama Anda"
+                                class="input-nama">
+                        </p>
+                        <p class="anak-tabel-6-3">
+                            <b>Agama</b> <font color="red">*</font>
+                            <select id="Agama" name="agama" class="input-agama">
+                                <option value disabled selected>Pilih</option>
+                                <option value="Islam">Islam</option>
+                                <option value="Khatolik">Katolik</option>
+                                <option value="Protestan">Protestan</option>
+                                <option value="Konghucu">Konghucu</option>
+                                <option value="Hindu">Hindu</option>
+                                <option value="Budha">Budha</option>
+
+                            </select>
+                        </p>
+
+                        <p class="anak-tabel-6-4">
+
+                            <b>Fakultas</b> <font color="red">*</font>
+
+                            <select id="fakultas" name="fakultas"
+                                class="input-fakultas">
+                                <option value disabled selected>Pilih</option>
+                                <option value="Ekonomi">Ekonomi</option>
+                                <option value="Fisip">Ilmu Sosial dan Ilmu
+                                    Politik</option>
+                                <option value="Pertanian">Pertanian</option>
+                                <option
+                                    value="Perikanan dan Ilmu Kelautan">Perikanan
+                                    dan Ilmu Kelautan</option>
+                                <option
+                                    value="Keguruan dan Ilmu Pendidikan">Keguruan
+                                    dan Ilmu Pendidikan</option>
+                                <option value="Hukum">Hukum</option>
+                                <option value="Matematika dan IPA">Matematika
+                                    dan
+                                    IPA</option>
+                                <option value="Teknik">Teknik</option>
+                                <option value="Kedokteran">Kedokteran</option>
+                                <option value="Kesehatan Masyarakat">Kesehatan
+                                    Masyarakat</option>
+                                <option value="Farmasi">Farmasi</option>
+                                <option value="Ilmu Budaya">Ilmu Budaya</option>
+                                <option value="Pasca Sarjana">Pasca
+                                    Sarjana</option>
+
+                            </select>
+                        </p>
+                        <p class="anak-tabel-6-5">
+                            <b>Jurusan</b> <font color="red">*</font>
+
+                            <input type="text" name="nama" minlength="1"
+                                maxlength="20"
+                                placeholder="Masukkan Jurusan Anda"
+                                class="input-jurusan">
+
+                        </p>
+
+                        <p class="anak-tabel-6-6">
+                            <b>Tanggal Lahir</b> <font color="red">*</font>
+                            <input type="date" id="tanggal" name="Tanggal Lahir"
+                                placeholder="hh/bb/tttt" class="input-tanggal">
+                        </p>
+
+                        <p class="anak-tabel-6-7">
+                            <b>Jenis Anggota</b> <font color="red">*</font>
+
+                            <select id="fakultas" name="fakultas"
+                                class="input-anggota">
+                                <option value disabled selected>Pilih</option>
+                                <option value="Mahasiswa">Mahasiswa</option>
+                                <option value="Dosen">Dosen</option>
+                                <option value="Umum">Umum</option>
+                                <option value="MAHASISWA TK AKHIR">MAHASISWA TK
+                                    AKHIR</option>
+                                <option value="MAHASISWA S2">MAHASISWA
+                                    S2</option>
+                                <option value="Bebas Pustaka">Bebas
+                                    Pustaka</option>
+                                <option value="MAHASISWA S3">MAHASISWA
+                                    S3</option>
+                                <option value="Kedokteran">Kedokteran</option>
+                                <option
+                                    value="Civitas Akademika Mulawarman">Civitas
+                                    Akademika Mulawarman</option>
+                                <option value="Alumni">Alumni</option>
+                            </select>
+
+                        </p>
+                        <!-- </div> -->
+
+                        <!--  -->
+
+                        <!-- <div class="inti2"> -->
+                        <p class="anak-tabel-6-8">
+                            <b>Jenis Kelamin</b> <font color="red">*</font>
+
+                            <input type="radio" id="laki-laki" name="gender"
+                                value="laki-laki" class="input-laki">
+                            <label class="label-cowo"
+                                for="laki-laki">Laki-laki</label>
+                            <input type="radio" id="perempuan-perempuan"
+                                name="gender" value="perempuan-perempuan"
+                                class="input-cewe">
+                            <label for="perempuan-perempuan"
+                                class="label-cewe">perempuan-perempuan</label>
+                        </p>
+
+                        <p class="anak-tabel-6-9">
+                            <b>Alamat</b> <font color="red">*</font>
+
+                            <input type="text" name="alamat"
+                                placeholder="Masukkan Alamat Anda"
+                                class="input-alamat">
+                        </p>
+
+                        <p class="anak-tabel-6-10">
+                            <b>Nomor Telepon</b> <font color="red">*</font>
+
+                            <input type="text" name="nama"
+                                placeholder="Masukkan Nomor Telepon"
+                                class="input-nomor">
+                        </p>
+
+                        <p class="hobi">
+                            <b>Hobi</b> <font color="red">*</font>
+                            <div class="hobi-1">
+                                <input type="checkbox" id="membaca" name="hobi"
+                                    value="membaca">
+                                <label for="membaca">Membaca</label>
+                                <input type="checkbox" id="Olahraga" name="hobi"
+                                    value="Olahraga">
+                                <label for="Olahraga">Olahraga</label>
+                                <input type="checkbox" id="Menggambar"
+                                    name="hobi" value="Menggambar">
+                                <label for="Menggambar">Menggambar</label>
+                                <input type="checkbox" id="Memotret" name="hobi"
+                                    value="Memotret">
+                                <label for="Memotret">Memotret</label>
+                                <input type="checkbox" id="Berkebun" name="hobi"
+                                    value="Berkebun">
+                                <label for="Berkebun">Berkebun</label>
+                                <input type="checkbox" id="Berenang" name="hobi"
+                                    value="Berenang">
+                                <label for="Berenang">Berenang</label>
+                                <input type="checkbox" id="Desain" name="hobi"
+                                    value="Desain">
+                                <label for="Desain">Desain</label>
+                            </div>
+
+                            <div class="hobi-2">
+                                <input type="checkbox" id="Menyanyi" name="hobi"
+                                    value="Menyanyi">
+                                <label for="Menyanyi">Menyanyi</label>
+                                <input type="checkbox" id="Menari" name="hobi"
+                                    value="Menari">
+                                <label for="Menari">Menari</label>
+                                <input type="checkbox" id="Traveling"
+                                    name="hobi" value="Traveling">
+                                <label for="Traveling">Traveling</label>
+                                <input type="checkbox" id="Bersepeda"
+                                    name="hobi" value="Bersepeda">
+                                <label for="Bersepeda">Bersepeda</label>
+                                <input type="checkbox" id="Menulis" name="hobi"
+                                    value="Menulis">
+                                <label for="Menulis">Menulis</label>
+                                <input type="checkbox" id="Menonton" name="hobi"
+                                    value="Menonton">
+                                <label for="Menonton">Menonton</label>
+                            </div>
+
+                        </p>
+
+                        <p class="anak-tabel-7-3">
+                            <b>Buku pavorit</b> <font color="red">*</font>
+                            <input type="text" name="buku kesukaan"
+                                placeholder="Masukkan Buku Pavorit Anda"
+                                class="input-kesukaan">
+                        </p>
+                        <p class="anak-tabel-7-4">
+                            <b>Penulis pavorit</b> <font color="red">*</font>
+                            <input type="text" name="buku kesukaan"
+                                placeholder="Masukkan Penulis Pavorit Anda"
+                                class="input-penulis">
+                        </p>
+
+                        <p class="anak-tabel-7-5">
+                            <b>Perpustakaan Favorit</b> <font
+                                color="red">*</font>
+
+                            <select id="perpustakaan" name="perpustakaan"
+                                class="input-perpustakaan">
+                                <option value disabled selected>Pilih</option>
+                                <option
+                                    value="Perpustakaan Daerah Provinsi">Perpustakaan
+                                    Daerah Provinsi</option>
+                                <option value="Perpustakaan Kota">Perpustakaan
+                                    Kota</option>
+                                <option
+                                    value="Perpustakaan umum Universitas">Perpustakaan
+                                    umum Universitas</option>
+                                <option
+                                    value="Perpustakaan Kampung">Perpustakaan
+                                    Kampung</option>
+
+                            </select>
+
+                        </p>
+                        <p class="anak-tabel-7-6">
+                            <b>Asal SD</b> <font color="red">*</font>
+                            <input type="text" name="buku kesukaan"
+                                placeholder="Masukkan Asal Sekolah Dasar"
+                                class="input-sd">
+                        </p>
+                        <p class="anak-tabel-7-7">
+                            <b>Asal SMP</b> <font color="red">*</font>
+                            <input type="text" name="buku kesukaan"
+                                placeholder="Masukkan Asal Sekolah Menengah Pertama"
+                                class="input-smp">
+                        </p>
+                        <p class="anak-tabel-7-8">
+                            <b>Asal SMA</b> <font color="red">*</font>
+                            <input type="text" name="buku kesukaan"
+                                placeholder="Masukkan Asal Sekolah Menengah Atas"
+                                class="input-sma">
+                        </p>
+
+                        <p class="anak-tabel-7-9">
+                            <b>Unggah Berkas KTP</b> <font color="red">*</font>
+                            <input type="file" name="file"
+                                placeholder="Masukkan Asal Sekolah Menengah Atas"
+                                class="input-file">
+                        </p>
+
+                        <p class="anak-tabel-6-11">
+                            <b>Email</b> <font color="red">*</font>
+
+                            <input type="text" name="email" maxlength="20"
+                                placeholder="Masukkan Email Anda"
+                                class="input-email">
+                        </p>
+
+                        <p class="anak-tabel-6-12">
+                            <b>Password</b> <font color="red">*</font>
+
+                            <input type="password" id="password" name="nama"
+                                placeholder="Masukkan password Anda"
+                                class="input-password">
+                        </p>
+
+                        <p>
+
+                            <input type="password" id="password" name="password"
+                                placeholder="Konsfirmasi Password"
+                                class="anak-tabel-6-13">
+                        </p>
+
+                    </div>
+
+                </td>
+                <td rowspan="2" height="170px">
+
+                    <table class="tabel-7">
+
+                        <tr>
+                            <td>
+                                <img src="profil.png" class="gambar-3">
+
+                            </td>
+
+                        </tr>
+
+                    </table>
+                    <br>
+                    <input type="file" name="uploadFile" class="file-gambar">
+
+                </td>
+            </tr>
+
+            <td>
+         </table>
+
+            <input type="Submit" value="Daftar" class="submit">
+            <input type="reset" value="Hapus" class="hapus">
+            <p class="wajib">
+
+                <b><font color="red">*</font>) wajib diisi</b>
+            </p>
+
+        </body>
+    </html>

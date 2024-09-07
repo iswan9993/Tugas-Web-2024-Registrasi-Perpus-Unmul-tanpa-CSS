@@ -1,0 +1,439 @@
+.tabel-atas {
+    width: 100%;
+    height:23px;
+    padding:0;
+    margin: 0;
+    background-color: #FFD700;
+    
+}
+
+.utama {
+    padding:0;
+    margin: 0;
+    
+}
+
+.tabel-2 {
+    overflow: hidden;
+    width: 100%;
+    height: px;;
+    padding:0px;
+    margin:0px;
+    background-color: #2E8B57;
+    table-layout: fixed;
+}
+
+.garis-biru {
+    background-color:#B0E0E6 ;
+}
+
+.data-tabel-1 {
+    width:80px;
+    padding:0px;
+    margin:0px;
+    
+}
+
+.gambar1 {
+    width:40px;
+    height:40px;
+    
+}
+
+.teks-1 {
+    font-size: 20px;
+    position: relative;
+    left:-25px;
+    top:-5px;
+    color:#FAFAD2;
+    font-family:arial;
+    padding:0px;
+    margin:opx;
+}
+
+.teks-2 {
+    font-size: 12px;
+    position: relative;
+    left:-25px;
+    top:-20px;
+    color:#FAFAD2;
+    padding:0px;
+    margin:0px;
+}
+
+.tabel-3 {
+    padding:0px;
+    margin:0;
+    position: relative;
+
+}
+
+.tabel-4 {
+    padding:0px;
+    margin:0px;
+    width:100%;
+    height:250px;
+    border-collapse: collapse;
+}
+.video-1 {
+    width:100%;
+    height: 250px;
+    object-fit: cover;
+    padding:0px;
+    margin:0px;
+}
+.boks-1 {
+    width:900px;
+    height:75px;
+    align-content:center;
+    margin:0px;
+    padding:0px;
+    transform: translate(250px, -40px);
+    border-radius: 7px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+input.boks-1 {
+    font-size: 25px;
+    
+    
+}
+
+.registrasi {
+    font-size: 35px;
+    position:relative;
+    right:-105px;
+    top:-30px;
+}
+
+.garis-1 {
+    width:85%;
+    position:relative;
+    top:-41px
+}
+
+.tabel-5 {
+    width:86%;
+    height:50px;
+    position:relative;
+    top:-41px;
+    right:-97px;
+}
+
+.coba {
+    position:relative;
+    right:300px;
+    top:-300px;
+}
+
+.tabel-6 {
+    /* border:2px solid black; */
+    position:relative;
+    top:-39px;
+    width:1300px;
+    margin-left: 20px;
+    
+}
+
+.anak-tabel-6 {
+    transform: translate(76px, -55px);
+    
+}
+
+.tabel-7 {
+    transform: translate(80px,-420px);
+    border: 2px solid black;
+    width:150px;
+    height:170px;
+}
+.file-gambar {
+    transform: translate(43px,-420px);
+}
+
+.input-induk {
+    width:700px;
+    height:30px;
+    transform: translate(60px,5px);
+    
+}
+
+.anak-tabel-6-2 {
+    transform: translate(76px, -50px);
+
+}
+
+.input-nama {
+    width:700px;
+    height:30px;
+    transform: translate(85px);
+
+}
+
+.anak-tabel-6-3 {
+    transform: translate(76px, -50px);
+
+}
+
+.input-agama {
+    width:710px;
+    height:30px;
+    transform: translate(155px);
+
+}
+
+.anak-tabel-6-4 {
+    transform: translate(76px, -50px);
+
+}
+
+.input-fakultas {
+    width:710px;
+    height:30px;
+    transform: translate(143px);
+}
+
+.anak-tabel-6-5 {
+    transform: translate(76px, -50px);
+
+}
+
+.input-jurusan {
+    width:705px;
+    height:30px;
+    transform: translate(146px);
+
+}
+
+.anak-tabel-6-6 {
+    transform: translate(76px, -50px);
+
+}
+
+.input-tanggal {
+    width:705px;
+    height:30px;
+    transform: translate(105px);
+
+}
+
+.anak-tabel-6-7 {
+    transform: translate(76px, -50px);
+
+}
+
+.input-anggota {
+    width:713px;
+    height:30px;
+    transform: translate(106px);
+
+
+}
+
+.anak-tabel-6-8 {
+    transform: translate(76px, -50px);
+
+}
+
+.input-laki {
+    transform: translate(106px);
+}
+
+.label-cewe {
+    position: relative;
+    left: 235px; 
+    top:-3px; 
+    
+}
+
+.label-cowo {
+    position: relative;
+    left: 115px;
+}
+
+.input-cewe {
+    transform: translate(230px);
+}
+
+.anak-tabel-6-9 {
+    transform: translate(76px, -50px);
+
+}
+
+.input-alamat {
+    width:713px;
+    height:30px;
+    transform: translate(150px);
+
+}
+
+.input-nomor {
+    width:713px;
+    height:30px;
+    transform: translate(96px);
+
+}
+.anak-tabel-6-10 {
+    transform: translate(76px, -50px);
+
+}
+
+.anak-tabel-6-11 {
+    transform: translate(76px, -50px);
+}
+
+.input-email {
+    width:713px;
+    height:30px;
+    transform: translate(160px);
+
+}
+
+.anak-tabel-6-12 {
+    transform: translate(76px, -50px);
+
+}
+
+.input-password {
+    width:713px;
+    height:30px;
+    transform: translate(135px);
+
+}
+
+.anak-tabel-6-13 {
+    width:713px;
+    height:30px;
+    transform: translate(295px, -50px);
+
+}
+
+.inti {
+    position: relative;
+    top:-95px;
+}
+
+.inti2 {
+    position:relative;
+    top:-95px;
+}
+
+.hobi {
+    transform: translate(76px, -50px);
+}
+
+.hobi-1 {
+    transform: translate(290px, -80px);
+}
+.hobi-2 {
+    transform: translate(290px, -60px);
+}
+
+.anak-tabel-7-3 {
+    transform: translate(76px, -50px);
+}
+
+.input-kesukaan {
+    width:713px;
+    height:30px;
+    transform: translate(113px);
+
+}
+.anak-tabel-7-4 {
+    transform: translate(76px, -50px);
+}
+
+.input-penulis {
+    width:713px;
+    height:30px;
+    transform: translate(100px);
+
+}
+.anak-tabel-7-5 {
+    transform: translate(76px, -50px);
+}
+
+.input-perpustakaan {
+    width:717px;
+    height:30px;
+    transform: translate(55px);
+
+}
+.anak-tabel-7-6 {
+    transform: translate(76px, -50px);
+}
+
+.input-sd {
+    width:713px;
+    height:30px;
+    transform: translate(150px);
+
+}
+.anak-tabel-7-7 {
+    transform: translate(76px, -50px);
+}
+
+.input-smp {
+    width:713px;
+    height:30px;
+    transform: translate(137px);
+
+}
+.anak-tabel-7-8{
+    transform: translate(76px, -50px);
+}
+
+.input-sma {
+    width:713px;
+    height:30px;
+    transform: translate(135px);
+    
+
+}
+.anak-tabel-7-9 {
+    transform: translate(76px, -50px);
+}
+
+.input-file {
+    transform: translate(64px);
+    font-size: 15px;
+    
+
+}
+
+.submit {
+    width:80px;
+    height:50px;
+    transform: translate(110px,-40px);
+    background-color: #4169E1;
+    border:none;
+    border-radius: 6px;
+    border: 2px solid rgb(47, 77, 90);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.hapus {
+    width:80px;
+    height:40px;
+    transform: translate(120px,-40px);
+    border:none;
+    border-radius: 3px;
+    border: 2px solid rgb(87, 126, 124);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+.wajib {
+    transform: translate(110px,-40px);
+    font-size: 20px;
+ 
+}
+
+.gambar-3 {
+    width:100%;
+    height:100%;
+}
+
+.universal {
+    position: relative;
+    top:26px;
+}
